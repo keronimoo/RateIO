@@ -55,12 +55,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/kerem/Desktop/RateIO/RateIO/Views/UserPost/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclBvc3RcVXBsb2FkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/kerem/Desktop/RateIO/RateIO/Views/User/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kerem/Desktop/RateIO/RateIO/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/RateIO/RateIO/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/kerem/Desktop/RateIO/RateIO/Views/User/Register.cshtml]

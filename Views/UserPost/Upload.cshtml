@@ -1,0 +1,18 @@
+﻿<div class="text-md-center">
+	<form asp-controller="UserPost" asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="UploadedFile">Choose a file:</label>
+        <input type="file" id="UploadedFile" name="uploadedFile" class="form-control" />
+    </div>
+    <div class="form-group mx-sm-3 mb-2">
+        <label for="Title">Title:</label>
+        <input type="text" id="Title" name="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for "Rate">Rate:</label>
+        <input type="number" id="Rate" name="Rate" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Share</button>
+</form>
+
+</div>

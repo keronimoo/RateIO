@@ -3,10 +3,15 @@ namespace RateIO.Models;
 
 public class User : IdentityUser
 {
-    //public int Id { get; set; }
-    //public string Username { get; set; }
-    //public string Email { get; set; }
-    //public string Password { get; set; }
+    public int followers { get; set; }
 
+    public int following { get; set; }
+
+    public int photos { get; set; }
+
+    public string profileAbout { get; set; } = "Default Profile About";
+
+    public string ProfilePhotoPath { get; set; }
+    public ICollection<UserPost> UserPosts { get; set; }
 
 }

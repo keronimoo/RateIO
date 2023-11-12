@@ -24,31 +24,7 @@ namespace RateIO.Controllers
         {
             return View();
         }
-        //[HttpPost]
-        //public IActionResult Register(RegisterViewModel model)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var existingUser = _context.Users.FirstOrDefault(u => u.Email == model.Email);
-        //        if (existingUser == null)
-        //        {
 
-        //            var user = new User
-        //            {
-        //                Username = model.Username,
-        //                Email = model.Email,
-        //                Password = model.Password,
-        //            };
-        //            _context.Users.Add(user);
-        //            _context.SaveChanges();
-
-        //            // Redirect to the login page or another relevant page after successful registration.
-        //            return RedirectToAction("Login", "User");
-        //        }
-        //        ModelState.AddModelError(string.Empty, "Username is already in use.");
-        //    }
-        //    return View(model);
-        //}
         [HttpPost]
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
@@ -126,6 +102,11 @@ namespace RateIO.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        [HttpGet]
+        public IActionResult Profile()
+        {
+            return View();
+        }
 
         [HttpGet]
         public IActionResult AccessDenied()
